@@ -1,0 +1,44 @@
+.root
+{
+    -fx-background-color: #121212;
+}
+
+#mediaView
+{
+    -fx-background-color: black;
+}
+
+#previousButton, #playButton, #stopButton, #nextButton
+{
+    -fx-font-size: 13px;
+    -fx-text-fill: lightblue;
+    -fx-background-color: #282828;
+}
+
+#previousButton:hover, #playButton:hover, #stopButton:hover, #nextButton:hover
+{
+    -fx-background-color: #383838;
+}
+
+#volumeSlider, #videoSlider
+{
+    -fx-control-inner-background: black;
+    -fx-control-inner-background-alt: #787878;
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+}
+
+.menu-bar
+{
+    -fx-background-color: black;
+}
+
+.menu
+{
+    -fx-text-fill: white;
+}
+
+.menu-item
+{
+    -fx-text-fill: black;
+}
